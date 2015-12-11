@@ -13,4 +13,4 @@
     // preps build dir with the shared directory
     keepBuildDir: true,
     removeCombined: true
-};
+}
