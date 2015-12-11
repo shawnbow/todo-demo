@@ -1,0 +1,16 @@
+{
+    appDir:'..',
+    baseUrl: 'js',
+    dir: '../build_stage/todo-demo',
+    fileExclusionRegExp: /^\.|^build$|^build_stage$|^test$/,
+    mainConfigFile: '../js/main.js',
+    optimize: 'none',
+    normalizeDirDefines: 'all',
+    logLevel: 4,
+
+
+    // Keeping build dir since Makefile cleans it up and
+    // preps build dir with the shared directory
+    keepBuildDir: true,
+    removeCombined: true
+};
