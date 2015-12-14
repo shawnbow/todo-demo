@@ -10,7 +10,7 @@ require.config({
 		},
 		dateutils: {
 			deps: ['utils', 'jquery'],
-			exports: 'MonthUtils'
+			exports: 'DateUtils'
 		},
 		underscore: {
 			exports: '_'
@@ -42,7 +42,7 @@ require(['dateutils'], function(d) {
 });
 
 
-
+//
 //require([
 //	'views/app',
 //	'routers/router'
